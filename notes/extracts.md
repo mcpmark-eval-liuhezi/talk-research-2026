@@ -20,8 +20,17 @@ Source: https://github.com/ollama/ollama/releases/tag/v0.40.6
 
 ## Fact 3 — llama.cpp (current stable build + headline change)
 
-> "llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models..."
+> "llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for host-memory MoE experts (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models..."
 
 > "New GPU cache for host-memory MoE experts (`--moe-cache-mib`): experts run on the GPU from an LRU cache, up to 2.2x faster decode [#29887]"
 
 Source: https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0
+
+## Fact 4 — vLLM (current stable version + headline change)
+
+> "# v0.32.0
+> ## Highlights
+> This release features 814 commits from 363 contributors (121 new)!
+> * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on `Cloudflare/clef-omni` (#61064), `LiquidAI/d1-3B` (#60676) and DiffusionGemma (#60466)."
+
+Source: https://github.com/vllm-project/vllm/releases/tag/v0.32.0
