@@ -17,3 +17,11 @@ Source: https://ubuntu.com/download/server
 > * gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967"
 
 Source: https://github.com/ollama/ollama/releases/tag/v0.40.6
+
+## Fact 3 — llama.cpp (current stable build + headline change)
+
+> "llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models..."
+
+> "New GPU cache for host-memory MoE experts (`--moe-cache-mib`): experts run on the GPU from an LRU cache, up to 2.2x faster decode [#29887]"
+
+Source: https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0
